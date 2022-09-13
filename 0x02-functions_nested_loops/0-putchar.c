@@ -10,7 +10,8 @@ int main(void)
 {
 	int _putchar;
 
-	putchar("%d", _putchar);
+	putchar("_putchar");
 	putchar('\n');
+
 	return (0);
 }
