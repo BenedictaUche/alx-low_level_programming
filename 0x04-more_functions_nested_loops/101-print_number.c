@@ -25,7 +25,7 @@ void print_number(int n)
 		y = n;
 		x = n;
 		x += 1;
-		x += 1;
+		y += 1;
 	}
 
 	while (x != 0)
