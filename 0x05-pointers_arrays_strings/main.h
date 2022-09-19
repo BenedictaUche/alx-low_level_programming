@@ -44,7 +44,7 @@ void _puts(char *str);
  * @c: parameter to compare
  * Return: 1 or 0
  */
-nt _putchar(char c);
+int _putchar(char c);
 /**
  * print_alphabet - function to print alphabet
  *
