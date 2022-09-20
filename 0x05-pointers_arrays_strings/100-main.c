@@ -6,8 +6,8 @@
  *
  * Return: Always 0.
  */
- int main(void)
- {
+int main(void)
+{
  	int n;
 
 	n = _atoi("98");
