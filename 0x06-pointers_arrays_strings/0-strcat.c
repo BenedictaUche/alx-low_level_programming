@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "holberton.h"
 /**
  * _strcat - concats two arrays
@@ -22,4 +23,23 @@ char *_strcat(char *dest, char *src)
 	dest[j + i] = '\0';
 
 	return (dest);
+=======
+#include <stdio.h>
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+
+char *_strcat(char *dest, char *src)
+{
+    char s1[98] = "Hello ";
+    char s2[] = "World!";
+    char *ptr;
+
+    ptr = _strcat(s1, s2);
+    printf("%s", ptr);
+    return (0);
+>>>>>>> 383421c52cfd21c7ddea778a250a39ecc188a361
 }
