@@ -11,7 +11,7 @@ int helper(int i, int n)
 		return (0);
 	if (n % i != 0 && i < n)
 		return (helper(i + 1, n));
-	return (0);
+	return (1);
 }
 /**
  * is_prime_number - is prime or not
